@@ -1,0 +1,75 @@
+body{
+    background-image: url(/images/cutewallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto 100%;
+}
+
+
+h1{
+    text-align: center;
+}
+hr{
+    color: black;
+}
+p{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace
+}
+.pic{
+    width:500px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    float: right;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+.box{
+    overflow:auto;
+}
+
+header {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+
+    background: rgba(255, 220, 230, 0.7); /* רקע ורוד בהיר יותר - מחזק את ההפרדה */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    border-bottom: 3px solid rgba(255, 150, 170, 0.8); /* קו תחתון ורוד כהה */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* צל חלש ויפה */
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: bold;
+    color: #6b0031; /* צבע כהה שמתאים */
+}
+
+header h2 {
+    margin: 8px 0 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: #6b0031;
+}
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 130px;
+
+}
+
+.dis{
+    display: block;
+    margin: 0 auto;
+}
